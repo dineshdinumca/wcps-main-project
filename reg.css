@@ -1,0 +1,143 @@
+body
+{
+background-image: linear-gradient(to right, #ff5722, #ff9800);
+margin-top:150px !important;
+}
+.register-left
+{
+text-align:center;
+color:#fff;
+padding:30px;
+}
+.register-left img
+{
+margin-top:60px;
+margin-bottom:18px;
+width:80px;
+animation:mover 1s infinite alternate;
+}
+.register-left h2
+{
+text-align:center;
+font-family:sans serif;
+margin-bottom:10px;
+color:white;
+}
+.register-left p
+{
+padding:20px 20px 0;
+text-align:center;
+font-family:sans serif;
+font-size:20px;
+}
+.register-left .btn-primary
+{
+border-radius:1.5rem;
+border:none;
+width:140px;
+background:#ff9800;
+border: 2px solid white;
+color:#199CDB;
+font-weight:600;
+margin-top:20px;
+padding:10px;
+transition:.5s;
+}
+.register-left .btn-primary a
+{
+text-decoration:none;
+color:white;
+}
+.register-left .btn-primary:hover
+{
+background:transparent;
+text-decoration:none;
+color:white;
+background: #ff5722;
+font-family:Modern No. 20;
+border: 2px solid white;
+}
+.register-right
+{
+border:none;
+background:#f8f8f8;
+border-top-left-radius:10% 50%;
+border-bottom-left-radius:10% 50%;
+padding:50px;
+}
+.register-right h2
+{
+text-align:center;
+font-family:sans serif;
+margin-bottom:10px;
+color:#555;
+}
+.register-form
+{
+padding:30px;
+}
+.register-right .btn-primary
+{
+float:right;
+border-radius:1.5rem;
+border:none;
+width:200px;
+background:#ff9800;
+font-weight:600;
+color:#fff;
+margin-top:20px;
+padding:10px;
+}
+.register-right .btn-primary:hover
+{
+background:#ff5722;
+}
+@keyframes mover
+{
+0%{transform: translateY(0);}
+100%{transform: translateY(-20px);}
+}
+.radio-container
+{
+font-size:17px;
+padding:8px;
+}
+label
+{
+position:relative;
+cursor:pointer;
+padding-right:32px;
+  margin-top: 5px;
+  margin-left:5px;
+}
+label:nth-last-child(1)
+{
+padding-right:0;
+}
+.container .input_field .custom_select
+{
+position:relative;
+width:100%;
+height:37px;
+}
+.container .input_field .custom_select select
+{
+-webkit-appearance:none;
+appearance:none;
+border:1px solid #d5dbd9;
+width:100%;
+height:100%;
+padding:6px 10px;
+border-radius:3px;
+outline:none;
+}
+.container .input_field .custom_select:before
+{
+content:"";
+position:absolute;
+top:12px;
+right:10px;
+border:8px solid;
+border-color:#d5dbd9 transparent transparent transparent;
+pointer-events:none;
+}

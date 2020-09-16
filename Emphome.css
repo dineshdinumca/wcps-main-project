@@ -1,0 +1,87 @@
+
+
+/*---------------------------------------------*/
+.content-box
+{
+
+height:100%;
+width:100%;
+margin-left:300px;
+align-items:center;
+}
+h1
+{
+text-align:center;
+padding-top:20px;
+font-family:sans serif;
+color:#555;
+}
+h1::after
+{
+content:'';
+background:#ff4d73;
+display:block;
+height:3px;
+width:300px;
+margin:20px auto 50px;
+}
+.icon
+{
+font-size:30px;
+margin:20px auto;
+padding:18px;
+height:70px;
+width:70px;
+border:1px solid #ff4d73;
+border-radius:50%;
+color:#ff4d73;
+}
+p
+{
+font-size:12px;
+margin-top:10px;
+color:#777;
+padding:20px;
+}
+span
+{
+color:#ff4d73;
+transition:.5s;
+}
+.col-md-4:hover
+{
+background:#ff4d73;
+cursor:pointer;
+color:#fff;
+box-shadow:-5px 5px 10px 0 rgba(0,0,0,0.4);
+transition:.5s;
+}
+.col-md-4:hover .icon
+{
+border:1px solid #fff;
+color:#fff;
+}
+.col-md-4:hover p
+{
+color:#fff;
+}
+.col-md-4:hover span
+{
+color:#fff;
+}
+.btn-primary
+{
+border-radius:1.5rem;
+border:1px solid #fff;
+width:120px;
+background:#ff4d73;
+font-weight:600;
+color:#fff;
+margin-top:10px;
+padding:10px;
+transition:.5s;
+}
+.btn-primary:hover
+{
+background:#ff4d73;
+}

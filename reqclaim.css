@@ -1,0 +1,158 @@
+*
+{
+margin:0;
+padding:0;
+box-sizing:border-box;
+list-style:none;
+text-decoration:none;
+font-family:sans-serif;
+}
+body
+{
+background:#f3f5f9;
+}
+.wrapper
+{
+display:flex;
+position:relative;
+}
+.wrapper .sidebar
+{
+position:fixed;
+width:250px;
+height:100%;
+background:#4b4276;
+padding:30px 0;
+}
+.wrapper .sidebar h2
+{
+color:#fff;
+text-transform:uppercase;
+text-align:center;
+margin-bottom:30px;
+}
+.wrapper .sidebar ul li
+{
+padding:15px;
+border-bottom:1px solid rgba(0,0,0,0.05);
+border-top:1px solid rgba(225,225,225,0.05);
+}
+.wrapper .sidebar ul li a 
+{
+color:#bdb8d7;
+display:block;
+}  
+.wrapper .sidebar ul li:hover
+{
+background:#594f8d;
+}
+.wrapper .sidebar ul li:hover a
+{
+color:#fff;
+}
+
+/*---------------------------------------------*/
+.content-box
+{
+
+height:100%;
+width:100%;
+margin-left:300px;
+align-items:center;
+}
+h1
+{
+text-align:center;
+padding-top:20px;
+font-family:sans serif;
+color:#555;
+}
+h1::after
+{
+content:'';
+background:#199CDB;
+display:block;
+height:3px;
+width:300px;
+margin:20px auto 50px;
+}
+.container
+{
+max-width:1000px;
+background:white ;
+width:100%;
+height:93vh;
+margin:20px auto;
+padding:30px;
+box-shadow:1px 1px 2px rgba(0,0,0,0.125);
+}
+.icon
+{
+font-size:30px;
+margin:20px auto;
+padding:18px;
+height:70px;
+width:70px;
+border:1px solid #199CDB;
+border-radius:50%;
+color:#199CDB;
+}
+p
+{
+font-size:12px;
+margin-top:10px;
+color:#777;
+padding:20px;
+}
+span
+{
+color:#199CDB;
+transition:.5s;
+}
+.col-md-4:hover
+{
+background:#199CDB;
+cursor:pointer;
+color:#fff;
+box-shadow:-5px 5px 10px 0 rgba(0,0,0,0.4);
+transition:.5s;
+}
+.col-md-4:hover .icon
+{
+border: 1px solid #fff;
+color:#fff;
+}
+.col-md-4:hover p
+{
+color:#fff;
+}
+.col-md-4:hover span
+{
+color:#fff;
+}
+.input_field .btn
+{
+text-decoration:none;
+color:white;
+border: 1px solid White;
+border-radius:2.5rem;
+display:block;
+padding:15px;
+width:200px;
+margin:auto;
+background: #199CDB;
+transition:.5s;
+font-size:15px;
+}
+.input_field .btn:hover
+{
+background:transparent;
+text-decoration:none;
+color:White;
+font-family:Modern No. 20;
+font-size:20px;
+}
+.input_field a
+{
+text-decoration:none;
+}
